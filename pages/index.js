@@ -14,11 +14,12 @@ export default function Home() {
     },
   );
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+    <div className="flex flex-col min-h-screen py-2">
       <Head>
         <title>React Feedback Widget Example</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <p className="text-6xl">React Feedback Widget Example</p>
       <button
         onClick={() => setShowWidget(!showWidget)}
         ref={setReferenceElement}
